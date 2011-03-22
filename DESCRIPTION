@@ -1,0 +1,11 @@
+Package: curve3D
+Type: Package
+Title: An analogue to curve() for functions of two variables.
+Version: 0.1-1
+Date: 2011-03-21
+Author: John Myles White
+Maintainer: John Myles White <jmw@johnmyleswhite.com>
+Description: An analogue to curve() for functions of two variables. Functions can be visualized using heatmaps or 3D surfaces.
+License: Artistic-2.0
+LazyLoad: yes
+Depends: ggplot2, lattice
