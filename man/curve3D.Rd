@@ -8,7 +8,7 @@ An analogue to curve() for functions of two variables. Functions can be
 visualized using heatmaps or 3D surfaces.
 }
 \usage{
-curve3D(f, from.x, to.x, from.y, to.y, heatmap = FALSE, n = 101)
+curve3D(f, from.x = 0, to.x = 1, from.y = 0, to.y = 1, heatmap = FALSE, n = 101)
 }
 \arguments{
   \item{f}{

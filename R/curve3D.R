@@ -1,4 +1,4 @@
-curve3D <- function(f, from.x, to.x, from.y, to.y, heatmap = FALSE, n = 101)
+curve3D <- function(f, from.x = 0, to.x = 1, from.y = 0, to.y = 1, heatmap = FALSE, n = 101)
 {
   library('lattice')
   library('ggplot2')
